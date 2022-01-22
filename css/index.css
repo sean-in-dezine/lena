@@ -1,0 +1,225 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    background-color: blue;
+    height: 100vh;
+    width: 100vw;
+}
+
+.topgrid {
+    display: grid;
+    height: 45vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    background-color:red;
+}
+
+.bottomcase {
+    background-color: pink;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.item {
+    background: url('../img/broccoli.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    display: grid;
+    place-items: end center;
+}
+
+.broccoli {
+    background: url('../img/broccoli.jpg');
+}
+.radish {
+    background: url('../img/radish.jpeg');
+}
+.sunflower {
+    background: url('../img/sunflower.jfif');
+}
+.pea {
+    background: url('../img/pea.jpg');
+}
+.kale {
+    background: url('../img/kale.jfif');
+
+}
+.spicy {
+    background: url('../img/spicy.jfif');
+
+}
+.banana {
+    background: url('../img/banana.jpeg');
+
+}
+.peacock {
+    background: url('../img/peacock.jpg');
+
+}
+.fauci {
+    background: url('../img/fauci.jpg');
+    color: white;
+
+}
+.gates {
+    background: url('../img/gates.jpg');
+    color: blue;
+}
+.biden {
+    background: url('../img/biden.jfif');
+    color: white;
+
+}
+.samuel {
+    background: url('../img/samuel.jpg');
+    color: white;
+
+}
+
+
+.broccoli, .radish, .sunflower, .pea, .spicy, .kale, .banana, .peacock, .fauci, .gates, .biden, .samuel {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    display: grid;
+    place-items: end center;
+}
+
+.left {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.left > .title {
+    height: 5vh;
+}
+
+.left > .img {
+    background: url('../img/broccoli.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 25vh;
+}
+
+.info {
+    background-color: green;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+}
+
+.right {
+    margin-top: 20%;
+    height: 90%;
+    display: grid;
+    background-color: purple;
+}
+
+.right > div {
+    margin-right: 15%;
+    height: 70%;
+    display: grid;
+    place-items: center;
+    border: solid;
+    border-radius: .5em;
+    background-color: white;
+}
+.bottombuttons {
+    background-color: orange;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20vw;
+    place-items: center;
+}
+
+.quantity {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+}
+
+.less {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.qty {
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.more {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+}
+.addcart {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.Cart {
+    height: 50vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.cart_item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    height: 5vh;
+    /* background-color: turquoise; */
+}
+
+.item_title {
+    background-color: turquoise;
+    width: 100%;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+}
+
+.remove {
+    background-color: red;
+    height: 5vh;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.item_quantity {
+    background-color: rgba(64, 224, 208, 0.198);
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 5vh;
+}
