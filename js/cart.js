@@ -2,6 +2,7 @@ let cartbtn = document.querySelector('.cart')
 cartbtn.addEventListener('click', cart)
 let Cart = document.querySelector('.Cart')
 
+
 function hideLeft() {
     let items = document.querySelectorAll('.left > div')
     for (const item of items) {
